@@ -9,7 +9,7 @@ Dla początkujących użytkowników wykorzystanie condy jest znacznie łatwiejsz
 
 ## (Ana)conda - instalacja
 
-Conda jest menedżerem pakietów pythona, który ułatwia nam ich instalację oraz utrzymanie kompatybilnych wersji. Domyślnie wykorzystuje repozytorium pakietów dostarczanych przez Continuum Analytics (https://www.continuum.io/).
+Conda jest menedżerem pakietów Pythona, który ułatwia nam ich instalację oraz utrzymanie kompatybilnych wersji. Domyślnie wykorzystuje repozytorium pakietów dostarczanych przez Continuum Analytics (https://www.continuum.io/).
 
 Rozpoczniemy od instalacji minimalnego środowiska Conda (http://conda.pydata.org/miniconda.html).
 
@@ -17,10 +17,10 @@ Niniejszy kurs Pythona oparty będzie o wersję 3. Pobieramy stosowną dla nasze
 
 Uruchamiamy instalator. W przypadku OS X konieczne jest uruchomienie skryptu w terminalu (np. bash Miniconda3-latest-Linux-x86_64.sh).
 
-W instalatorze wszystkie opcje powinny być domyślnie ustawione poprawnie (warto jednak przeczytać informację na kolejnych ekranach, gdyż wersja instalatora może ulec zmianie od momentu powstania tego poradnika). Wygodniejsza może być instalacja dla wszystkich użytkowników systemu. Zwracamy uwagę na to aby dodane zostały ścieżki PATH w systemie windows. Dodatkowo ewentualnie odhaczamy „learn more aboud Anaconda Cloud”.
+W instalatorze wszystkie opcje powinny być domyślnie ustawione poprawnie (warto jednak przeczytać informację na kolejnych ekranach, gdyż wersja instalatora może ulec zmianie od momentu powstania tego poradnika). Wygodniejsza może być instalacja dla wszystkich użytkowników systemu. Zwracamy uwagę na to aby dodane zostały ścieżki PATH w systemie Windows. Dodatkowo ewentualnie odhaczamy „learn more aboud Anaconda Cloud”.
 W systemie OS X konieczne może być ponowne uruchomienie terminala po instalacji.
 
-Pełny proces konfiguracji condy i instalacji podstawowych pakietów sprowadza się do czterach poleceń z odpowiednimi uprawnieniami*:
+Pełny proces konfiguracji condy i instalacji podstawowych pakietów sprowadza się do czterech poleceń z odpowiednimi uprawnieniami*:
 
 Aktualizacji silnika:
 ```
@@ -40,18 +40,18 @@ conda install pandas numpy jupyter cython bottleneck numexpr openpyxl lxml xlrd 
 ```
 
 
-*Uprawnienia adminsitratora
-* W przypadku systemu windows: Uruchamiamy wiersz poleceń z prawami administratora (Start > „cmd” > prawym klawiszem „uruchom jako administrator”).
+*Uprawnienia administratora
+* W przypadku systemu Windows: Uruchamiamy wiersz poleceń z prawami administratora (Start > „cmd” > prawym klawiszem „uruchom jako administrator”).
 * Dla OS X może być konieczne wykonywanie poleceń z uprawnieniami root'a (su)
 
-Poniżej zilustrowane ("Przykładowa instalacja") zostało wykonanie powyższych poleceń w systemie Windows. Konfiguracja w systemie OS X przebiega analogicznie. Pomyślne wykonanie powyższych poleceń pozwoli nam uzyskać poprawnie działające środowisko Pythona z obsługą Notebooków oraz zainstalowanymi pakietami Numpy i Pandas.
+Poniżej ("Przykładowa instalacja") zilustrowane zostało wykonanie powyższych poleceń w systemie Windows. Konfiguracja w systemie OS X przebiega analogicznie. Pomyślne wykonanie powyższych poleceń pozwoli nam uzyskać poprawnie działające środowisko Pythona z obsługą notebooków oraz zainstalowanymi pakietami Numpy i Pandas.
 
 
 ## Pierwsze uruchomienie
 
-Przed pierwszym uruchomieniem warto utworzyć roboczy folder na potrzeby kursu. Przykładowo: "C:\Users\Maciej Wilamowski\pythonKurs". W folderze waarto zapisać pliki kursu bezpośrednio z githuba.
+Przed pierwszym uruchomieniem warto utworzyć roboczy folder na potrzeby kursu. Przykładowo: "C:\Users\Maciej Wilamowski\pythonKurs". W folderze warto zapisać pliki kursu bezpośrednio z githuba.
 
-Za każdym razem pracę z Pythonem będziemy rozpoczynać w ten sam sposób. Ostatnie z poleceń powinno uruchomić naszą domyslną przeglądarkę internetową. Wyświetlona strona powinna zawierać listę plików i podfolderów w wybranm katalogu ("C:\Users\Maciej Wilamowski\pythonKurs" w poniższym przykładzie).
+Za każdym razem pracę z Pythonem będziemy rozpoczynać w ten sam sposób. Ostatnie z poleceń powinno uruchomić naszą domyślną przeglądarkę internetową. Wyświetlona strona powinna zawierać listę plików i podfolderów w wybranym katalogu ("C:\Users\Maciej Wilamowski\pythonKurs" w poniższym przykładzie).
 
 Po uruchomieniu wiersza poleceń/konsoli:
 ```
