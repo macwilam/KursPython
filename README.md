@@ -1,5 +1,5 @@
 # KursPython
-Podstawowy kurs programowanie w Pythonie dla ekonomistów.
+Podstawowy kurs programowanie w Pythonie dla analityków i ekonomistów.
 
 # Instalacja środowiska Python w systemie Windows/OS X
 
