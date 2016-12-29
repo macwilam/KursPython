@@ -59,7 +59,7 @@ activate myPython   (W systemie OS X: source activate myPython )
 cd "C:\Users\Maciej Wilamowski\pythonKurs"
 jupyter notebook
 ```
-Jeżeli wszystko przebiegło pomyślnie możemy przetestować naszą instalację uruchamiając notatnik "
+Jeżeli wszystko przebiegło pomyślnie możemy przetestować naszą instalację uruchamiając notatnik "0_Test_instalacji".
 
 ## Przykładowa instalacja w systemie Windows
 ### Konfiguracja środowiska
