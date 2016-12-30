@@ -1,13 +1,17 @@
 # KursPython
-Podstawowy kurs programowanie w Pythonie dla analityków i ekonomistów.
+Podstawowy kurs dla analityków i ekonomistów z wykorzystaniem Pythona. 
 
-# Instalacja środowiska Python w systemie Windows/OS X
+Celem niniejszego kursu jest nauka podstaw programowania w języku Python i obsługa najczęściej wykorzystywanych bibliotek w analizie danych.
+
+Poniżej znajduje się instrukcja instalacji śrtodowiska Python, które będzie wykorzystywane w tym kursie.
+
+## Instalacja środowiska Python w systemie Windows/OS X
 
 Środowisko Python można zainstalować bezpośrednio korzystając z instalatora dostępnego na stronie Python.org: https://www.python.org/downloads/ lub korzystając ze zintegrowanego rozwiązania jakim jest conda (http://conda.pydata.org/docs/intro.html).
 
 Dla początkujących użytkowników wykorzystanie condy jest znacznie łatwiejsze, ponieważ nie wymaga instalowania i konfigurowania kompilatora oraz bibliotek BLAS. Poniższy poradnik opisuje ten sposób instalacji.
 
-## (Ana)conda - instalacja
+### (Ana)conda - instalacja
 
 Conda jest menedżerem pakietów Pythona, który ułatwia nam ich instalację oraz utrzymanie kompatybilnych wersji. Domyślnie wykorzystuje repozytorium pakietów dostarczanych przez Continuum Analytics (https://www.continuum.io/).
 
@@ -47,9 +51,9 @@ conda install pandas numpy jupyter cython bottleneck numexpr openpyxl lxml xlrd 
 Poniżej ("Przykładowa instalacja") zilustrowane zostało wykonanie powyższych poleceń w systemie Windows. Konfiguracja w systemie OS X przebiega analogicznie. Pomyślne wykonanie powyższych poleceń pozwoli nam uzyskać poprawnie działające środowisko Pythona z obsługą notebooków oraz zainstalowanymi pakietami Numpy i Pandas.
 
 
-## Pierwsze uruchomienie
+### Pierwsze uruchomienie
 
-Przed pierwszym uruchomieniem warto utworzyć roboczy folder na potrzeby kursu. Przykładowo: "C:\Users\Maciej Wilamowski\pythonKurs". W folderze warto zapisać pliki kursu bezpośrednio z githuba.
+Przed pierwszym uruchomieniem warto utworzyć roboczy folder na potrzeby kursu. Przykładowo: "C:\Users\Maciej Wilamowski\pythonKurs". W folderze warto zapisać pliki kursu bezpośrednio z githuba (np. prawy klawisz na pliku "0_Test_instalacji.ipynb" i zapisz jako lub pobranie całego repozytorium).
 
 Za każdym razem pracę z Pythonem będziemy rozpoczynać w ten sam sposób. Ostatnie z poleceń powinno uruchomić naszą domyślną przeglądarkę internetową. Wyświetlona strona powinna zawierać listę plików i podfolderów w wybranym katalogu ("C:\Users\Maciej Wilamowski\pythonKurs" w poniższym przykładzie).
 
@@ -59,10 +63,10 @@ activate myPython   (W systemie OS X: source activate myPython )
 cd "C:\Users\Maciej Wilamowski\pythonKurs"
 jupyter notebook
 ```
-Jeżeli wszystko przebiegło pomyślnie możemy przetestować naszą instalację uruchamiając notatnik "0_Test_instalacji".
+Jeżeli wszystko przebiegło pomyślnie możemy przetestować naszą instalację uruchamiając notatnik "0_Test_instalacji.ipynb".
 
-## Przykładowa instalacja w systemie Windows
-### Konfiguracja środowiska
+### Przykładowa instalacja w systemie Windows
+#### Konfiguracja środowiska
 *UWAGA: przytoczone poniżej wyniki poleceń mogą się nieznacznie różnić. Zostają przytoczone poniżej aby ułatwić sprawdzenie poprawności wykonywania poleceń.*
 
 
@@ -146,7 +150,7 @@ Linking packages ...
 #
 ```
 
-### Instalacja podstawowych pakietów
+#### Instalacja podstawowych pakietów
 **Pakiety chcemy zainstalować we wczesniej utworzonym środowisku. W tym celu musimy je aktywować":**
 
 ```
