@@ -9,7 +9,7 @@ Poniżej znajduje się instrukcja instalacji śrtodowiska Python, które będzi
 
 Środowisko Python można zainstalować bezpośrednio korzystając z instalatora dostępnego na stronie Python.org: https://www.python.org/downloads/ lub korzystając ze zintegrowanego rozwiązania jakim jest conda (http://conda.pydata.org/docs/intro.html).
 
-Dla początkujących użytkowników wykorzystanie condy jest znacznie łatwiejsze, ponieważ nie wymaga instalowania i konfigurowania kompilatora oraz bibliotek BLAS. Poniższy poradnik opisuje ten sposób instalacji.
+Dla początkujących użytkowników wykorzystanie condy jest znacznie łatwiejsze, ponieważ nie wymaga instalowania i samodzilnego kompilowania bibliotek BLAS. Poniższy poradnik opisuje ten sposób instalacji.
 
 ### (Ana)conda - instalacja
 
