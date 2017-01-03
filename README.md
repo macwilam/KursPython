@@ -1,7 +1,7 @@
 # KursPython
 Podstawowy kurs dla analityków i ekonomistów z wykorzystaniem Pythona. 
 
-Celem niniejszego kursu jest nauka podstaw programowania w języku Python i obsługa najczęściej wykorzystywanych bibliotek w analizie danych.
+Celem niniejszego kursu jest nauka podstaw programowania w języku Python i obsługa najczęściej wykorzystywanych bibliotek w analizie danych. Po ukończeniu kursu uczestnicy powinni potrafić samodzielnie rozwiązywać problemy i znajdować odpowiedzi na nurtujące pytania. 
 
 Poniżej znajduje się instrukcja instalacji śrtodowiska Python, które będzie wykorzystywane w tym kursie.
 
