@@ -21,7 +21,9 @@ Niniejszy kurs Pythona oparty będzie o wersję 3. Pobieramy stosowną dla nasze
 
 Uruchamiamy instalator (najlepiej z uprawnieniami administratora). W przypadku OS X konieczne jest uruchomienie skryptu w terminalu (np. bash Miniconda3-latest-Linux-x86_64.sh).
 
-W instalatorze wszystkie opcje powinny być domyślnie ustawione poprawnie (warto jednak przeczytać informację na kolejnych ekranach, gdyż wersja instalatora może ulec zmianie od momentu powstania tego poradnika). Wygodniejsza może być instalacja dla wszystkich użytkowników systemu (konieczne jest uruchomienie instalatora z uprawnieniami administratora). Zwracamy uwagę na to aby dodane zostały ścieżki PATH w systemie Windows. Dodatkowo ewentualnie odhaczamy „learn more aboud Anaconda Cloud”.
+W instalatorze wszystkie opcje powinny być domyślnie ustawione poprawnie (warto jednak przeczytać informację na kolejnych ekranach, gdyż wersja instalatora może ulec zmianie od momentu powstania tego poradnika). Wygodniejsza może być instalacja dla wszystkich użytkowników systemu (konieczne jest uruchomienie instalatora z uprawnieniami administratora). Zwracamy uwagę na to aby dodane zostały ścieżki PATH w systemie Windows. **Uwaga!** Kiedy zaznaczymy opcję dodania ścieżek PATH w systemie windows będzie dostęp do instalacji PPythona z każdego miejsca w systemie. W przeciwnym razie będziemy musieli uruchamiać pythona pośrednio.
+
+Dodatkowo ewentualnie odhaczamy „learn more aboud Anaconda Cloud”.
 W systemie OS X konieczne może być ponowne uruchomienie terminala po instalacji.
 
 Pełny proces konfiguracji condy i instalacji podstawowych pakietów sprowadza się do czterech poleceń z odpowiednimi uprawnieniami*:
@@ -30,9 +32,9 @@ Aktualizacji silnika:
 ```
 conda update conda
 ```
-Stworzenia nowego środowiska:
+Stworzenia nowego środowiska (nazwę myPython możemy zastąpić dowolną inną nazwą), możemy też tworzyć kilka środowisk z różnymi wersjami pakietów):
 ```
-conda create --name myPython python=3.5
+conda create --name myPython
 ```
 Aktywacji danego środowiska:
 ```
@@ -44,7 +46,7 @@ conda install pandas numpy jupyter cython bottleneck numexpr openpyxl lxml xlrd 
 ```
 
 
-*Uprawnienia administratora
+* Uprawnienia administratora
 * W przypadku systemu Windows: Uruchamiamy wiersz poleceń z prawami administratora (Start > „cmd” > prawym klawiszem „uruchom jako administrator”).
 * Dla OS X może być konieczne wykonywanie poleceń z uprawnieniami root'a (su)
 
