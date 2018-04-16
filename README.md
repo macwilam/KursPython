@@ -3,11 +3,11 @@ Podstawowy kurs dla analityków i ekonomistów z wykorzystaniem Pythona.
 
 Celem niniejszego kursu jest nauka podstaw programowania w języku Python i obsługa najczęściej wykorzystywanych bibliotek w analizie danych. Po ukończeniu kursu uczestnicy powinni potrafić samodzielnie rozwiązywać problemy i znajdować odpowiedzi na nurtujące pytania. 
 
-Poniżej znajduje się instrukcja instalacji śrtodowiska Python, które będzie wykorzystywane w tym kursie.
+Poniżej znajduje się instrukcja instalacji śrtodowiska Python, które będzie wykorzystywane w tym kursie dla środowisk Windows/OS X. 
 
 ## Instalacja środowiska Python w systemie Windows/OS X
 
-Środowisko Python można zainstalować bezpośrednio korzystając z instalatora dostępnego na stronie Python.org: https://www.python.org/downloads/ lub korzystając ze zintegrowanego rozwiązania jakim jest conda (http://conda.pydata.org/docs/intro.html).
+Środowisko Python można zainstalować bezpośrednio korzystając z instalatora dostępnego na stronie Python.org: https://www.python.org/downloads/ lub korzystając ze zintegrowanego rozwiązania jakim jest conda (http://conda.pydata.org/docs/intro.html). **Nie jest to zalecane rozwiązanie**. Wymaga to pewnej wiedzy z zarządzania systemem i kompilowania pakietów.
 
 Dla początkujących użytkowników wykorzystanie condy jest znacznie łatwiejsze, ponieważ nie wymaga instalowania i samodzilnego kompilowania bibliotek BLAS. Poniższy poradnik opisuje ten sposób instalacji.
 
@@ -17,11 +17,11 @@ Conda jest menedżerem pakietów Pythona, który ułatwia nam ich instalację or
 
 Rozpoczniemy od instalacji minimalnego środowiska Conda (http://conda.pydata.org/miniconda.html).
 
-Niniejszy kurs Pythona oparty będzie o wersję 3. Pobieramy stosowną dla naszego systemu operacyjnego wersję (32 lub 64-bitową), np. "64-bit (exe installer)" w kolumnie Windows i wierszu Python 3.5.
+Niniejszy kurs Pythona oparty będzie o wersję 3. Pobieramy stosowną dla naszego systemu operacyjnego wersję (32 lub 64-bitową), np. "64-bit (exe installer)" w kolumnie Windows i wierszu Python 3.X. Zalecana jest zawsze najbardziej aktualna stabilna wersja Pythona.
 
-Uruchamiamy instalator. W przypadku OS X konieczne jest uruchomienie skryptu w terminalu (np. bash Miniconda3-latest-Linux-x86_64.sh).
+Uruchamiamy instalator (najlepiej z uprawnieniami administratora). W przypadku OS X konieczne jest uruchomienie skryptu w terminalu (np. bash Miniconda3-latest-Linux-x86_64.sh).
 
-W instalatorze wszystkie opcje powinny być domyślnie ustawione poprawnie (warto jednak przeczytać informację na kolejnych ekranach, gdyż wersja instalatora może ulec zmianie od momentu powstania tego poradnika). Wygodniejsza może być instalacja dla wszystkich użytkowników systemu. Zwracamy uwagę na to aby dodane zostały ścieżki PATH w systemie Windows. Dodatkowo ewentualnie odhaczamy „learn more aboud Anaconda Cloud”.
+W instalatorze wszystkie opcje powinny być domyślnie ustawione poprawnie (warto jednak przeczytać informację na kolejnych ekranach, gdyż wersja instalatora może ulec zmianie od momentu powstania tego poradnika). Wygodniejsza może być instalacja dla wszystkich użytkowników systemu (konieczne jest uruchomienie instalatora z uprawnieniami administratora). Zwracamy uwagę na to aby dodane zostały ścieżki PATH w systemie Windows. Dodatkowo ewentualnie odhaczamy „learn more aboud Anaconda Cloud”.
 W systemie OS X konieczne może być ponowne uruchomienie terminala po instalacji.
 
 Pełny proces konfiguracji condy i instalacji podstawowych pakietów sprowadza się do czterech poleceń z odpowiednimi uprawnieniami*:
