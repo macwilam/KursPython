@@ -32,6 +32,8 @@ Aktualizacji silnika:
 ```
 conda update conda
 ```
+**UWaga!** Nie zaleca się pracy na domyślnym środowisku conda (base). Zgodnie ze sztuką należy stworzyć oddzielne środowisko. Niemniej w przypadku początkujących uzytkowników i pierwszej instalacji condy i pythona można pominąć krok tworzenia środowosiak. Ułatwi to pracę na początku, gdyż nie będzie koniecznosci aktywowania środowiska za każdym razem. Jeżeli jest to pierwsza instalacja lub dla początkujących użytkowników nie zaznajomionych z linią poleceń  zalecamy pominąć ten krok.
+
 Stworzenia nowego środowiska (nazwę myPython możemy zastąpić dowolną inną nazwą), możemy też tworzyć kilka środowisk z różnymi wersjami pakietów):
 ```
 conda create --name myPython
